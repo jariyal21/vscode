@@ -1,0 +1,26 @@
+version: '3'
+services:
+  web:
+    image:  jariyal21/docker
+    ports:
+      - "8000:80"
+  web1:
+    image: jariyal21/docker
+    ports:
+      - "4040:80"
+  test:
+    image: jariyal21/docker
+    ports:
+      - "8040:80"
+  server:
+    image: jariyal21/docker
+    ports:
+      - "8033:80"
+
+  webapp:
+    image: jariyal21/docker
+    ports:
+      - "9000:80"
+    
+
+  
